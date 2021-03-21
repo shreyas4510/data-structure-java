@@ -14,7 +14,7 @@ public class binary_sort_linkedList {
 		System.out.print("Enter the target element : ");
 		Scanner scan = new Scanner(System.in);
 		target = scan.nextInt();
-
+		scan.close();
 		binary_sort_linkedList obj = new binary_sort_linkedList();
 		obj.binarySort(list, target);
 
@@ -39,12 +39,12 @@ public class binary_sort_linkedList {
 				} else if (list.get(mid) > target) {
 					last = last - 1;
 				}
-				
-				if ( first > last ) {
+
+				if (first > last) {
 					System.out.println("Element not found");
 					flag = true;
 				}
-				
+
 			}
 		}
 	}

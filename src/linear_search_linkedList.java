@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class linear_sort_linkedList {
+public class linear_search_linkedList {
 	public static void main(String args[]) {
 		Scanner scan = new Scanner(System.in);
 		

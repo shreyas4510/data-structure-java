@@ -13,7 +13,7 @@ public class binary_search_linkedList_recursive {
 		System.out.print("Enter the target element : ");
 		Scanner scan = new Scanner(System.in);
 		int target = scan.nextInt();
-		
+		scan.close();
 		binary_search_linkedList_recursive obj = new binary_search_linkedList_recursive();
 		obj.searchFunc(series, target, 0, series.size() - 1);
 		

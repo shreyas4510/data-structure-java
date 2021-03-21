@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class linear_sort_array {
+public class linear_search_array {
 	public static void main(String args[]) {
 		int arr[], len, find_element;
 		Scanner scan = new Scanner(System.in);

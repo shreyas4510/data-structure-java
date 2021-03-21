@@ -1,5 +1,5 @@
 import java.util.*;
-public class binary_sort_array {
+public class binary_search_array {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class binary_sort_array {
 		System.out.print("Enter the target value : ");
 		int target = scan.nextInt();
 		
-		binary_sort_array obj = new binary_sort_array();
+		binary_search_array obj = new binary_search_array();
 		obj.LoopSearch(number_arr, target);
 		scan.close();
 	}

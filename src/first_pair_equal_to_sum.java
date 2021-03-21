@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class first_pair_equal_to_sum {
 	public static void main(String args[]) {
 		int arr[] = { 45, 87, 42, 3, 48, 45 };
